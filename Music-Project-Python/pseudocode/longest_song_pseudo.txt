@@ -1,0 +1,14 @@
+1. Initialize file/db
+2. Initialize longest_song list
+3. Set longest_song_length to -1.00
+4. Loop through songs
+     4.1. Convert current_song length to a double/float
+     4.2. If Current_song length = longest_song_length
+            4.2.1. Add current_song to longest_song list
+            4.2.2. End-if
+     4.3. Else if current_song length > longest_song_length:
+            4.3.1. Set longest_song_length to current_song length
+            4.3.2. Reinitialize longest_song list
+            4.3.3. Add current song to longest_song list
+            4.3.4. End-if
+5. End-loop and terminate
